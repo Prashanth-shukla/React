@@ -1,5 +1,5 @@
 import {createSlice, nanoid } from '@reduxjs/toolkit';
-
+// nanoid creates unique ids.
 const initialState = {
     todos: [{id: 1, text: "Hello world"}]
 }
